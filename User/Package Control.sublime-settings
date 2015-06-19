@@ -1,0 +1,24 @@
+{
+	"auto_upgrade": false,
+	"auto_upgrade_ignore":
+	[
+	],
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AlignTab",
+		"ConvertToUTF8",
+		"Default",
+		"DocBlockr",
+		"Emmet",
+		"HTMLBeautify",
+		"Nil-Theme",
+		"Package Control",
+		"Pretty JSON",
+		"PyV8",
+		"Sass",
+		"SASS Build",
+		"Theme - Afterglow",
+		"ZZZ"
+	]
+}

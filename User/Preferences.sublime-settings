@@ -1,0 +1,13 @@
+{
+	"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
+	"detect_indentation": false,
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Seti.sublime-theme",
+	"update_check": false,
+	"word_wrap": "false"
+}

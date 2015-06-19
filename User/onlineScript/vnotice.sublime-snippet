@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+
+/*
+例如：
+html:
+	<div id="wrap">
+		<input type="text" id="contactMessage" mod="notice" mod_notice_tip="11位数字" class="input-text">
+		<input type="text" id="contactTelephone" mod="notice" mod_notice_tip="电话号码" class="input-text">
+	</div>
+javascript:
+	online.registerMod.registerAll(this.target.find("[mod]"));//注册模块
+
+或者
+	newOne.find("[mod_notice_tip]").each(function(item){
+		online.registerMod.register_notice(item);
+	});
+或者
+	online.registerMod.register_notice(xxxx.find('input[placeholder]'))
+*/
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vnotice-   cQuery注册提示模块   </tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
+

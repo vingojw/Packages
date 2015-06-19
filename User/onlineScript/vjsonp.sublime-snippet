@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+	\$.loader.jsonp(online.getBaseUrl(url), {
+		charset: 'utf-8',
+		onload: function(ret){
+
+		}
+	});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vjsonp  cQuery的jsonp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
+

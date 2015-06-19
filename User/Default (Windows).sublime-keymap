@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["ctrl+alt+shift+k"], "command": "align_tab", //对齐插件 以 : 对齐
+        "args" : {"user_input" : ":/f"}
+    },
+    {
+        "keys": ["ctrl+alt+shift+d"], "command": "align_tab",//对齐插件 以 = 对齐
+        "args" : {"user_input" : "=/f"}
+    }
+]

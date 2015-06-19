@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+online.create('${1:类名}', {
+	options: {
+
+	},
+	methods: {
+		initialize:function(opts){//实例化时自动调用
+			this.info();//输出当前类名
+			this.extend(this, opts);//将传递的参数覆盖默认参数
+
+			this.bindEvent();
+			this.init();
+		},
+		init:function(){
+
+		},
+		bindEvent:function(){
+
+		}
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vonline  online 类初始化</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
+

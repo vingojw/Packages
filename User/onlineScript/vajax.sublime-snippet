@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+\$.ajax(online.getBaseUrl(), {
+	context: {},
+	method:'POST',
+	onsuccess:function(xhr, ret){
+		ret = \$.parseJSON(ret);
+		if(ret == null || ret == '' ){
+			//没有数据
+			//return;
+		}
+	},
+	onerror:function(){
+
+	}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>vajax  cQuery的ajax   </tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
+
+
+

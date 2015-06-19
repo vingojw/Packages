@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+        OpenLayers.Layer.WMS(${1:name},${2:url},{
+          lyers:${3:name},
+          format: ${4:'image/jpeg'},
+          isBaseLayer:"${5:true}"
+          },
+           { opacity:"${6:1}",
+            singleTile: "${7:false}"
+          }
+        );
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>OpenLayers.Layer.WMS</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
